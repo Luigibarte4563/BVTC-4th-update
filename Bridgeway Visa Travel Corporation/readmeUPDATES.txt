@@ -128,3 +128,5 @@ F. Content Changes
    - Office Section: Updated description.
    - Featured Programs: Added an images.
    - Contact Us: Removed the booking form and its related JavaScript
+   - Commitment to Compliance: replace the content
+   - Our Partners: replace the contents
