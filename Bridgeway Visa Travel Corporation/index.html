@@ -543,46 +543,42 @@
                         </div>
                     </div>
                 </div>
-                <!-- Commitment to Compliance -->
-                <div class="border border-white-200 rounded-lg overflow-hidden">
-                    <button type="button" aria-expanded="false"
+                <!-- Commitment and Compliance -->
+                <div class="border border-white rounded-lg overflow-hidden">
+                    <button type="button" aria-expanded="false" aria-controls="compliance-content"
                         class="w-full flex justify-between items-center px-6 py-4 text-lg font-semibold text-red-800 bg-red-100 hover:bg-red-200 focus:outline-none transition accordion-btn"
                         data-accordion="compliance">
-                        <span>Commitment to Compliance</span>
+                        <span>Commitment and Compliance</span>
                         <svg class="w-5 h-5 accordion-icon transition-transform duration-300" fill="none"
                             stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg>
                     </button>
-                    <div class="accordion-content bg-black text-white-700 transition-all duration-300 max-h-0 overflow-hidden"
+                    <div id="compliance-content"
+                        class="accordion-content bg-black text-white transition-all duration-300 max-h-0 overflow-hidden"
                         data-content="compliance">
                         <div class="px-6 pb-5 pt-2 leading-relaxed space-y-3">
                             <p>
-                                At BVTC Global Recruitment Inc., we are deeply committed to upholding the
-                                highest standards of compliance in every aspect of our operations. We strictly
-                                follow all recruitment and labor laws in the Philippines, including the
-                                regulations set forth by the Department of Migrant Workers (DMW).
+                                At Bridgeway Visa Travel Corporation, we uphold the highest standards of
+                                professionalism,
+                                transparency, and regulatory compliance in every facet of our operations. As a trusted
+                                travel
+                                and visa consultancy in the Philippines, our commitment is reflected in the following
+                                principles:
                             </p>
+                            <ul class="list-none space-y-2">
+                                <li>✅ Legally registered with SEC, BIR, LOCATION CLEARANCE, and MAYOR'S PERMIT.</li>
+                                <li>🤝 Upholds ethical standards and consumer protection laws</li>
+                                <li>👥 Continuously trains staff for quality visa and travel service</li>
+                                <li>📍 Provides accurate, transparent, and responsive support to clients</li>
+                            </ul>
                             <p>
-                                Our agency practices ethical recruitment, ensuring that all candidates are
-                                treated with fairness, dignity, and respect throughout the hiring process. From
-                                transparent communication to lawful documentation, we guarantee that every step
-                                meets legal and ethical requirements.
-                            </p>
-                            <p>
-                                In addition to national compliance, we also observe strict international labor
-                                standards, ensuring that our deployed professionals are placed in safe, fair,
-                                and ethical working environments abroad. Our dedication to compliance extends
-                                beyond legal obligations—we advocate for transparency in fees, ethical placement
-                                practices, and continuous support for both our candidates and partner employers.
-                            </p>
-                            <p>
-                                With BVTC, you can be assured of a recruitment process rooted in integrity,
-                                accountability, and care.
+                                We strive to make international travel smooth, secure, and accessible.
                             </p>
                         </div>
                     </div>
                 </div>
+
                 <!-- Why choose Bridgeway Visa Travel Corporation?. -->
                 <div class="border border-white-200 rounded-lg overflow-hidden">
                     <button type="button" aria-expanded="false"
@@ -626,105 +622,164 @@
             <!-- Cards Container -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
 
-                <!-- Partner Card -->
+                <!-- Skyline International College -->
                 <div
-                    class="bg-black p-8 rounded-xl shadow-lg border border-white w-full max-w-sm text-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-red-300">
-                    <div
-                        class="w-48 h-32 mx-auto mb-4 bg-white rounded-md flex items-center justify-center overflow-hidden">
-                        <img src="ourPartners/skylineInternationalCollege.jpg" alt="Skyline International College Logo"
-                            class="w-full h-full object-contain" />
+                    class="bg-black p-8 rounded-xl shadow-lg border border-white w-full max-w-sm h-full flex flex-col justify-between transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-red-300">
+                    <div>
+                        <div
+                            class="w-40 h-24 mx-auto mb-4 bg-white rounded-md flex items-center justify-center overflow-hidden">
+                            <img src="ourPartners/skylineInternationalCollege.jpg"
+                                alt="Skyline International College Logo" class="object-contain w-full h-full" />
+                        </div>
+                        <h4 class="text-lg font-bold text-white mb-1">Skyline International College</h4>
+                        <p class="text-gray-300 text-sm italic mb-2">Career-Focused Courses in business, hospitality,
+                            and more</p>
+                        <ul class="text-left text-gray-300 text-sm list-disc list-inside space-y-1">
+                            <li>👉 Affordable Tuition compared to many Australian institutions</li>
+                            <li>👉 Online & On-Campus Options for flexible learning</li>
+                            <li>👉 Supportive Environment with engaging trainers and student activities</li>
+                            <li>👉 Official Accreditation by ASQA and CRICOS</li>
+                            <li>👉 Work Opportunities while studying</li>
+                        </ul>
                     </div>
-                    <h4 class="text-lg font-bold text-white mb-1">Skyline International College</h4>
-                    <p class="text-gray-400 text-sm mb-2">Australia</p>
-                    <p class="text-gray-300 italic">
-                        "Skyline International College offers a wide range of programs that prepare students for global
-                        careers through practical and innovative learning experiences."
-                    </p>
+                    <div class="mt-auto pt-4">
+                        <p class="text-gray-400 italic">
+                            Skyline blends practical education with affordability and strong student support.
+                        </p>
+                    </div>
                 </div>
 
-                <!-- Partner Card -->
+                <!-- Times Education -->
                 <div
-                    class="bg-black p-8 rounded-xl shadow-lg border border-white w-full max-w-sm text-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-red-300">
-                    <div
-                        class="w-48 h-32 mx-auto mb-4 bg-white rounded-md flex items-center justify-center overflow-hidden">
-                        <img src="ourPartners/timesEducation.jpg" alt="Times Education Logo"
-                            class="w-full h-full object-contain" />
+                    class="bg-black p-8 rounded-xl shadow-lg border border-white w-full max-w-sm h-full flex flex-col justify-between transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-red-300">
+                    <div>
+                        <div
+                            class="w-40 h-24 mx-auto mb-4 bg-white rounded-md flex items-center justify-center overflow-hidden">
+                            <img src="ourPartners/timesEducation.jpg" alt="Times Education Logo"
+                                class="object-contain w-full h-full" />
+                        </div>
+                        <h4 class="text-lg font-bold text-white mb-1">Times Education</h4>
+                        <p class="text-gray-300 text-sm italic mb-2">Practical, career-oriented learning for global
+                            students</p>
+                        <ul class="text-left text-gray-300 text-sm list-disc list-inside space-y-1">
+                            <li>👉 Practical Training in business, hospitality, IT & leadership</li>
+                            <li>👉 Flexible Study Modes: online + on-campus</li>
+                            <li>👉 Budget-Friendly Tuition</li>
+                            <li>👉 ASQA & CRICOS Accredited</li>
+                            <li>👉 Industry-Aligned Programs for job readiness</li>
+                        </ul>
                     </div>
-                    <h4 class="text-lg font-bold text-white mb-1">Times Education</h4>
-                    <p class="text-gray-400 text-sm mb-2">Institution Provider for Australia</p>
-                    <p class="text-gray-300 italic">
-                        "Times Education supports international students in pursuing quality Australian education across
-                        its network of colleges and institutions."
-                    </p>
+                    <div class="mt-auto pt-4">
+                        <p class="text-gray-400 italic">
+                            Times Education delivers skills-focused learning with flexibility and affordability.
+                        </p>
+                    </div>
                 </div>
 
-                <!-- Partner Card -->
+                <!-- Goozing Immigration -->
                 <div
-                    class="bg-black p-8 rounded-xl shadow-lg border border-white w-full max-w-sm text-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-red-300">
-                    <div
-                        class="w-48 h-32 mx-auto mb-4 bg-white rounded-md flex items-center justify-center overflow-hidden">
-                        <img src="ourPartners/GoozingMigration.jpg" alt="Gogozing Migration Logo"
-                            class="w-full h-full object-contain" />
+                    class="bg-black p-8 rounded-xl shadow-lg border border-white w-full max-w-sm h-full flex flex-col justify-between transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-red-300">
+                    <div>
+                        <div
+                            class="w-40 h-24 mx-auto mb-4 bg-white rounded-md flex items-center justify-center overflow-hidden">
+                            <img src="ourPartners/GoozingMigration.jpg" alt="Goozing Migration Logo"
+                                class="object-contain w-full h-full" />
+                        </div>
+                        <h4 class="text-lg font-bold text-white mb-1">Goozing Immigration</h4>
+                        <p class="text-gray-300 text-sm italic mb-2">Personalized and practical visa assistance</p>
+                        <ul class="text-left text-gray-300 text-sm list-disc list-inside space-y-1">
+                            <li>🌟 Tailored Visa Assistance for student, skilled worker, and partner visas</li>
+                            <li>🌟 Education Partnerships with accredited institutions</li>
+                            <li>🌟 Responsive Support with one-on-one consultations</li>
+                            <li>🌟 Migration Expertise with updated policy knowledge</li>
+                        </ul>
                     </div>
-                    <h4 class="text-lg font-bold text-white mb-1">Gogozing Migration</h4>
-                    <p class="text-gray-400 text-sm mb-2">Partner Australian Migration Agent</p>
-                    <p class="text-gray-300 italic">
-                        "Gogozing Migration offers expert visa and migration assistance for students and professionals
-                        planning to settle or study in Australia."
-                    </p>
+                    <div class="mt-auto pt-4">
+                        <p class="text-gray-400 italic">
+                            Goozing Immigration makes migration less stressful with personalized guidance.
+                        </p>
+                    </div>
                 </div>
 
-                <!-- Partner Card -->
+                <!-- Canberra College of Management and Technology -->
                 <div
-                    class="bg-black p-8 rounded-xl shadow-lg border border-white w-full max-w-sm text-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-red-300">
-                    <div
-                        class="w-48 h-32 mx-auto mb-4 bg-white rounded-md flex items-center justify-center overflow-hidden">
-                        <img src="ourPartners/canberraCollegeOfManagement&Technology.jpg"
-                            alt="Canberra College of Management and Technology Logo"
-                            class="w-full h-full object-contain" />
+                    class="bg-black p-8 rounded-xl shadow-lg border border-white w-full max-w-sm h-full flex flex-col justify-between transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-red-300">
+                    <div>
+                        <div
+                            class="w-40 h-24 mx-auto mb-4 bg-white rounded-md flex items-center justify-center overflow-hidden">
+                            <img src="ourPartners/canberraCollegeOfManagement&Technology.jpg"
+                                alt="Canberra College Logo" class="object-contain w-full h-full" />
+                        </div>
+                        <h4 class="text-lg font-bold text-white mb-1">Canberra College of Management and Technology</h4>
+                        <p class="text-gray-300 text-sm italic mb-2">Focused on business and tech disciplines</p>
+                        <ul class="text-left text-gray-300 text-sm list-disc list-inside space-y-1">
+                            <li>🎯 Specialized Programs in business, finance, and management</li>
+                            <li>🎯 Local Accessibility with affordable tuition</li>
+                            <li>🎯 Hands-On Learning with practical instruction</li>
+                            <li>🎯 Community Engagement through internships and partnerships</li>
+                        </ul>
                     </div>
-                    <h4 class="text-lg font-bold text-white mb-1">Canberra College of Management and Technology</h4>
-                    <p class="text-gray-400 text-sm mb-2">Australia</p>
-                    <p class="text-gray-300 italic">
-                        "CCMT delivers high-quality vocational education in business, management, and technology
-                        disciplines with industry-focused training."
-                    </p>
+                    <div class="mt-auto pt-4">
+                        <p class="text-gray-400 italic">
+                            CCMT delivers vocational learning rooted in real-world experience.
+                        </p>
+                    </div>
                 </div>
 
-                <!-- Partner Card -->
+                <!-- Adventus -->
                 <div
-                    class="bg-black p-8 rounded-xl shadow-lg border border-white w-full max-w-sm text-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-red-300">
-                    <div
-                        class="w-48 h-32 mx-auto mb-4 bg-white rounded-md flex items-center justify-center overflow-hidden">
-                        <img src="ourPartners/Adventus.io.jpg" alt="Adventus Logo"
-                            class="w-full h-full object-contain" />
+                    class="bg-black p-8 rounded-xl shadow-lg border border-white w-full max-w-sm h-full flex flex-col justify-between transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-red-300">
+                    <div>
+                        <div
+                            class="w-40 h-24 mx-auto mb-4 bg-white rounded-md flex items-center justify-center overflow-hidden">
+                            <img src="ourPartners/Adventus.io.jpg" alt="Adventus Logo"
+                                class="object-contain w-full h-full" />
+                        </div>
+                        <h4 class="text-lg font-bold text-white mb-1">Adventus</h4>
+                        <p class="text-gray-300 text-sm italic mb-2">Global provider of ICT and education services</p>
+                        <ul class="text-left text-gray-300 text-sm list-disc list-inside space-y-1">
+                            <li>🌐 24/7 ICT support and consulting</li>
+                            <li>🌐 Adventus.io simplifies university admissions</li>
+                            <li>🌐 Strategic industry partnerships</li>
+                            <li>🌐 Employee perks: healthcare, birthday leave, pantry access</li>
+                        </ul>
                     </div>
-                    <h4 class="text-lg font-bold text-white mb-1">Adventus</h4>
-                    <p class="text-gray-400 text-sm mb-2">International College Partner</p>
-                    <p class="text-gray-300 italic">
-                        "Adventus connects students to global education opportunities through its comprehensive platform
-                        for international college admissions."
-                    </p>
+                    <div class="mt-auto pt-4">
+                        <p class="text-gray-400 italic">
+                            Adventus empowers both institutions and students through innovation.
+                        </p>
+                    </div>
                 </div>
 
-                <!-- Partner Card -->
+                <!-- International Business University -->
                 <div
-                    class="bg-black p-8 rounded-xl shadow-lg border border-white w-full max-w-sm text-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-red-300">
-                    <div
-                        class="w-48 h-32 mx-auto mb-4 bg-white rounded-md flex items-center justify-center overflow-hidden">
-                        <img src="ourPartners/InternationalBusinessUniversity.jpg"
-                            alt="International Business University Logo" class="w-full h-full object-contain" />
+                    class="bg-black p-8 rounded-xl shadow-lg border border-white w-full max-w-sm h-full flex flex-col justify-between transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-red-300">
+                    <div>
+                        <div
+                            class="w-40 h-24 mx-auto mb-4 bg-white rounded-md flex items-center justify-center overflow-hidden">
+                            <img src="ourPartners/InternationalBusinessUniversity.jpg"
+                                alt="International Business University Logo" class="object-contain w-full h-full" />
+                        </div>
+                        <h4 class="text-lg font-bold text-white mb-1">International Business University</h4>
+                        <p class="text-gray-300 text-sm italic mb-2">Innovative academic pathways for global
+                            professionals</p>
+                        <ul class="text-left text-gray-300 text-sm list-disc list-inside space-y-1">
+                            <li>📘 Curriculum focused on digital transformation, entrepreneurship, and innovation</li>
+                            <li>📘 Blends theoretical learning with real-world application</li>
+                            <li>📘 Supportive academic environment with modern resources</li>
+                            <li>📘 Career-readiness programs embedded in coursework</li>
+                        </ul>
                     </div>
-                    <h4 class="text-lg font-bold text-white mb-1">International Business University</h4>
-                    <p class="text-gray-400 text-sm mb-2">Academic Partner</p>
-                    <p class="text-gray-300 italic">
-                        "Enrolling at International Business University was one of the best decisions made for academic
-                        and professional growth. The curriculum is thoughtfully designed to blend theory with real-world
-                        application, especially in areas like digital transformation, entrepreneurship, and innovation."
-                    </p>
+                    <div class="mt-auto pt-4">
+                        <p class="text-gray-400 italic">
+                            IBU helps students grow academically and professionally through relevant and future-ready
+                            education.
+                        </p>
+                    </div>
                 </div>
 
             </div>
+
         </div>
 
     </section>
